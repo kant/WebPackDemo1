@@ -1,0 +1,17 @@
+{
+  "name": "WebPackDemo",
+  "version": "0.0.1",
+  "description": "Webpack setup",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --config webpack.config.js --content-base out/ --devtool eval --port 8080"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "sandeep",
+  "license": "ISC",
+  "devDependencies": {
+    "node-libs-browser": "^0.5.0",
+    "webpack": "^1.9.4"
+  }
+}
